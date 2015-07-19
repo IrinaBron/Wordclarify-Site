@@ -1,0 +1,92 @@
+body {
+	background-color: #018EC6;
+	font-family: "Lato",sans-serif;
+	color: #ECEEEE;
+	font-size: 15px;
+}
+
+h1 {
+ 	font-family: "Lato",sans-serif;
+ 	line-height: 2.42857143;
+ 	color: #008EC8;
+ 	margin: 0px 0px 0px 100px; 
+ 	/*padding: 0px 0px 0px 0px;*/
+ 	font-weight: 600;
+ }
+ 
+ p , ol {
+ 	font-weight: lighter;
+
+ }
+
+.topRow {
+	background-color: #FFFFFF;
+	
+}
+
+.screen img {
+	width: 100%;
+}
+
+
+.device-container {
+	max-width: 300px;
+}
+
+.description-column {
+	padding-left: 100px;
+	margin-top: 100px;
+}
+
+.iphone-column {
+	margin-top: 90px;
+	padding-left: 100px;
+
+}
+
+div.appIcon {
+	margin-top: 40px;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	h1 {
+		margin-left: 20px;
+	}
+
+	.description-column {
+		padding-left: 20px;
+		margin-top: 30px;
+	}
+
+	.iphone-column {
+		margin-top: 30px;
+		padding-left: 10px;
+
+	}
+	div.appIcon {
+		text-align: center;
+	}
+
+	.device-container {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+

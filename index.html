@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		
+		<!-- CSS Links-->
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/custom.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/device-mockups.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>	
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+			
+		<title>WordClarify</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="topRow">
+					<h1>Wordclarify <img src="images/WC-Icon.png" alt="WordClarify logo"></h1>
+				</div>
+				<div class="col-md-6 description-column">
+				
+					<h2>Use your smartphone to define words in paper books.</h2>
+
+					<p>Wordclarify is an OCR-based dictionary app. Improve and expand your English vocabulary with ease while reading any paper book.</p>
+
+					<h3>How it works: </h3>
+
+					<p>Make sure you have sufficient lighting while scanning words. Mobile OCR is best suited for black text on a flat white background. </p>
+
+					<ol>
+						<li>Aim the frame at the word you want to define.</li>
+						<li>Tap anywhere once on the screen to improve focus.</li>
+						<li>Press the trusty camera button to snap a quick picture of the word. </li>
+					</ol>
+					<div class="appIcon">
+						<a href="https://itunes.apple.com/us/app/wordclarify/id1016765739?ls=1&amp;mt=8"><img src="images/AppStoreIcon.svg" alt="App Store link"/></a>
+					</div>
+				</div>
+				<div class="col-md-6 iphone-column">
+					<div class="device-container" data-size-port="300px" data-size-land="600px">
+						<div class="device-mockup iphone5 portrait white">
+							<div class="device">
+								<div class="screen">
+									<div class="slider">
+										<div><img src="images/CameraView.png" alt="camera view"/></div>
+										<div><img src="images/TakePictureView.png" alt="take a picture"/></div>
+										<div><img src="images/ListView.png" alt="definition list view"/></div>
+										<div><img src="images/DefinitionAdvanced.png" alt="definition: advanced"/></div>
+										<div><img src="images/ListView.png" alt="definition list view"/></div>
+										<div><img src="images/DefinitionConsistency.png" alt="definition: Consistency"/></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div>
+	
+		<!--JS links-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
+
+		 <script type="text/javascript">
+    		$(document).ready(function(){
+      			$('.slider').slick({
+        			autoplay: true,
+        			autoplaySpeed: 3000,
+        			slidesToShow: 1,
+        			slidesToScroll: 1,
+        			arrows: false,
+        			fade:true,
+        			
+      			});
+    		});
+ 		 </script>
+	</body>
+</html>
+
