@@ -9,7 +9,8 @@ h1 {
  	font-family: "Lato",sans-serif;
  	line-height: 2.42857143;
  	color: #008EC8;
- 	margin: 0px 0px 0px 100px; 
+ 	margin: 0% 0% 0% 6%;
+ 	/*margin: 0px 0px 0px 100px;*/
  	/*padding: 0px 0px 0px 0px;*/
  	font-weight: 600;
  }
@@ -28,65 +29,62 @@ h1 {
 	width: 100%;
 }
 
-
 .device-container {
 	max-width: 300px;
+	/*max-width: 44%;*/
 }
 
 .description-column {
-	padding-left: 100px;
-	margin-top: 100px;
+	/*padding-left: 100px;
+	margin-top: 100px;*/
+	padding-left: 6%;
+	margin-top: 6%;
 }
 
 .iphone-column {
-	margin-top: 90px;
-	padding-left: 100px;
+	/*margin-top: 90px;
+	padding-left: 100px;*/
+	margin-top: 5%;
+	padding-left: 4%;
 
 }
 
 div.appIcon {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
+	margin-top: 7%;
 }
 
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-	h1 {
-		margin-left: 20px;
-	}
+/*portrait mode*/
+/*iphone 4s/5/5s/6/6+ */
 
-	.description-column {
-		padding-left: 20px;
-		margin-top: 30px;
-	}
+@media screen and (max-width: 414px) {
 
-	.iphone-column {
-		margin-top: 30px;
-		padding-left: 10px;
-
-	}
 	div.appIcon {
-		text-align: center;
+		text-align:center;
 	}
 
 	.device-container {
-		display: block;
-    	margin-left: auto;
-    	margin-right: auto;
+	    display:block;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+}
+
+/*landscape mode */
+/*iphone for 4s/5/5s/6/6+ */
+
+@media screen and (max-width: 736px) {
+	div.appIcon {
+		text-align:center;
+	}
+
+	.device-container {
+	    display:block;
+	    margin-right: auto;
+	    margin-left: auto;
 	}
 }
 
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
 
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 
