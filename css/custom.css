@@ -56,7 +56,10 @@ div.appIcon {
 
 /*portrait mode*/
 /*iphone 4s/5/5s/6/6+ */
+p.support {
 
+	
+}
 @media screen and (max-width: 414px) {
 
 	div.appIcon {
