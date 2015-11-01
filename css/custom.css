@@ -82,10 +82,10 @@ div.appIcon {
 
 @media screen and (max-width: 736px) {
 
-	p, ol {
+	body {
+
 		text-size-adjust: none;
 	}
-
 	div.appIcon {
 		text-align:center;
 	}
