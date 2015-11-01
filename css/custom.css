@@ -18,10 +18,6 @@ h1 {
  	font-weight: 600;
  }
  
- /*p , ol {
- 	font-weight: 300;
-
- }*/
 
 p.support {
 	margin-top:4%;
@@ -84,6 +80,9 @@ div.appIcon {
 
 @media screen and (max-width: 736px) {
 
+	p, ol {
+		text-size-adjust: none;
+	}
 
 	div.appIcon {
 		text-align:center;
