@@ -3,7 +3,9 @@ body {
 	font-family: "Lato",sans-serif;
 	color: #ECEEEE;
 	font-size: 15px;
+	font-weight: 300;
 	-webkit-font-smoothing: antialiased;
+
 }
 
 h1 {
@@ -16,10 +18,10 @@ h1 {
  	font-weight: 600;
  }
  
- p , ol {
+ /*p , ol {
  	font-weight: 300;
 
- }
+ }*/
 
 p.support {
 	margin-top:4%;
