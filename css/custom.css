@@ -3,6 +3,7 @@ body {
 	font-family: "Lato",sans-serif;
 	color: #ECEEEE;
 	font-size: 15px;
+	-webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -80,6 +81,8 @@ div.appIcon {
 /*iphone for 4s/5/5s/6/6+ */
 
 @media screen and (max-width: 736px) {
+
+
 	div.appIcon {
 		text-align:center;
 	}
